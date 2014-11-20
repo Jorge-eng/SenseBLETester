@@ -13,7 +13,7 @@ class STTestResultsVC: UIViewController, UITableViewDelegate {
     @IBOutlet weak var resultsTableView: UITableView!
     
     var testSuite : STSenseTestSuite?
-    var dataSource : STTestResultDataSource?
+    private var dataSource : STTestResultDataSource?
     
     override func viewDidLoad() {
         super.viewDidLoad()

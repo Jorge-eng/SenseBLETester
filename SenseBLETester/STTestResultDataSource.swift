@@ -11,8 +11,9 @@ import UIKit
 
 class STTestResultDataSource : NSObject, UITableViewDataSource {
     
+    private var tests : [SenseTestType]
+    
     var testSuite : STSenseTestSuite
-    var tests : [SenseTestType]
     
     init(testSuite : STSenseTestSuite) {
         self.testSuite = testSuite

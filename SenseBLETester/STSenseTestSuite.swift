@@ -17,10 +17,11 @@ enum SenseTestType : String {
 
 class STSenseTestSuite : NSObject {
     
-    let testQueue = NSOperationQueue()
-    let testResults = NSMutableDictionary()
+    private let testQueue = NSOperationQueue()
+    private let testResults = NSMutableDictionary()
+    private var disconnectObserver : String?
+    
     let senseManager : SENSenseManager
-    var disconnectObserver : String?
     var done : Bool
     var success : Bool
     var onUpdate : (() -> Void)?

@@ -19,13 +19,13 @@ enum STSenseSection : Int {
 
 class STSenseDataSource : NSObject, UITableViewDataSource {
     
-    var discoveredSenses = [SENSense]()
-    var senseReadyForTest = [SENSense]()
-    var senseTested = [SENSense]()
-    var testSuites = NSMutableDictionary()
-    var tempManager : SENSenseManager?
+    private var discoveredSenses = [SENSense]()
+    private var senseReadyForTest = [SENSense]()
+    private var senseTested = [SENSense]()
+    private var testSuites = NSMutableDictionary()
+    private var tempManager : SENSenseManager?
+    
     let tableView : UITableView
-    var testCompletionBlock : ((Void) -> Void)?
     
     init(tableView : UITableView) {
         self.tableView = tableView
