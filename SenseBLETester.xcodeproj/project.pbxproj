@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFA9C0671A1A7F1900CCCEFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9C0661A1A7F1900CCCEFB /* AppDelegate.swift */; };
-		BFA9C0691A1A7F1900CCCEFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9C0681A1A7F1900CCCEFB /* ViewController.swift */; };
+		9AB1DF0D45C431CF0D6A8152 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B2D6ABE0FC7F47976D368F /* libPods.a */; };
+		BF045B611A1E848A0026D5B9 /* STSensePairngMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF045B601A1E848A0026D5B9 /* STSensePairngMode.swift */; };
+		BF045B631A1E9FC40026D5B9 /* STTestResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF045B621A1E9FC40026D5B9 /* STTestResultsVC.swift */; };
+		BF045B651A1EA0DE0026D5B9 /* STTestResultDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF045B641A1EA0DE0026D5B9 /* STTestResultDataSource.swift */; };
+		BF257ED91A1B1FC600DAF923 /* STSenseTestOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF257ED81A1B1FC600DAF923 /* STSenseTestOperation.swift */; };
+		BF257EDB1A1B21BA00DAF923 /* STSenseGetWiFi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF257EDA1A1B21BA00DAF923 /* STSenseGetWiFi.swift */; };
+		BF257EDD1A1B22CD00DAF923 /* STSenseSetWiFi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF257EDC1A1B22CD00DAF923 /* STSenseSetWiFi.swift */; };
+		BF257EDF1A1B256900DAF923 /* STSenseScanWiFi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF257EDE1A1B256900DAF923 /* STSenseScanWiFi.swift */; };
+		BF257EE11A1BBCF800DAF923 /* STSenseTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF257EE01A1BBCF800DAF923 /* STSenseTestSuite.swift */; };
+		BFA9C0671A1A7F1900CCCEFB /* STAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9C0661A1A7F1900CCCEFB /* STAppDelegate.swift */; };
+		BFA9C0691A1A7F1900CCCEFB /* STRootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9C0681A1A7F1900CCCEFB /* STRootVC.swift */; };
 		BFA9C06C1A1A7F1900CCCEFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA9C06A1A1A7F1900CCCEFB /* Main.storyboard */; };
 		BFA9C06E1A1A7F1900CCCEFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA9C06D1A1A7F1900CCCEFB /* Images.xcassets */; };
 		BFA9C0711A1A7F1900CCCEFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA9C06F1A1A7F1900CCCEFB /* LaunchScreen.xib */; };
 		BFA9C07D1A1A7F1900CCCEFB /* SenseBLETesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9C07C1A1A7F1900CCCEFB /* SenseBLETesterTests.swift */; };
+		BFA9C0871A1A81A900CCCEFB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BFA9C0861A1A81A900CCCEFB /* Podfile */; };
+		BFBC65FD1A1A96780060EEC6 /* STSenseDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBC65FC1A1A96780060EEC6 /* STSenseDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +37,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BFA9C0611A1A7F1900CCCEFB /* SenseBLETester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenseBLETester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B2D6ABE0FC7F47976D368F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA24CDD7AD159A3104102FA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BF045B601A1E848A0026D5B9 /* STSensePairngMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STSensePairngMode.swift; sourceTree = "<group>"; };
+		BF045B621A1E9FC40026D5B9 /* STTestResultsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STTestResultsVC.swift; sourceTree = "<group>"; };
+		BF045B641A1EA0DE0026D5B9 /* STTestResultDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STTestResultDataSource.swift; sourceTree = "<group>"; };
+		BF257ED81A1B1FC600DAF923 /* STSenseTestOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STSenseTestOperation.swift; sourceTree = "<group>"; };
+		BF257EDA1A1B21BA00DAF923 /* STSenseGetWiFi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STSenseGetWiFi.swift; sourceTree = "<group>"; };
+		BF257EDC1A1B22CD00DAF923 /* STSenseSetWiFi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STSenseSetWiFi.swift; sourceTree = "<group>"; };
+		BF257EDE1A1B256900DAF923 /* STSenseScanWiFi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STSenseScanWiFi.swift; sourceTree = "<group>"; };
+		BF257EE01A1BBCF800DAF923 /* STSenseTestSuite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STSenseTestSuite.swift; sourceTree = "<group>"; };
+		BFA9C0611A1A7F1900CCCEFB /* Sense T.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sense T.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA9C0651A1A7F1900CCCEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFA9C0661A1A7F1900CCCEFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFA9C0681A1A7F1900CCCEFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFA9C0661A1A7F1900CCCEFB /* STAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STAppDelegate.swift; sourceTree = "<group>"; };
+		BFA9C0681A1A7F1900CCCEFB /* STRootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STRootVC.swift; sourceTree = "<group>"; };
 		BFA9C06B1A1A7F1900CCCEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFA9C06D1A1A7F1900CCCEFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BFA9C0701A1A7F1900CCCEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BFA9C0761A1A7F1900CCCEFB /* SenseBLETesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenseBLETesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA9C07B1A1A7F1900CCCEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFA9C07C1A1A7F1900CCCEFB /* SenseBLETesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenseBLETesterTests.swift; sourceTree = "<group>"; };
+		BFA9C0861A1A81A900CCCEFB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		BFBC65FA1A1A8A2B0060EEC6 /* SenseBLETester-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SenseBLETester-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFBC65FC1A1A96780060EEC6 /* STSenseDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STSenseDataSource.swift; sourceTree = "<group>"; };
+		F026B3441F265A1C4EF020F6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AB1DF0D45C431CF0D6A8152 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,19 +82,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9FF1832958FFEA1A8B0E4B55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FA24CDD7AD159A3104102FA /* Pods.debug.xcconfig */,
+				F026B3441F265A1C4EF020F6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF257ED51A1B17DF00DAF923 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				BF257ED81A1B1FC600DAF923 /* STSenseTestOperation.swift */,
+				BF257EDA1A1B21BA00DAF923 /* STSenseGetWiFi.swift */,
+				BF257EDC1A1B22CD00DAF923 /* STSenseSetWiFi.swift */,
+				BF257EDE1A1B256900DAF923 /* STSenseScanWiFi.swift */,
+				BF045B601A1E848A0026D5B9 /* STSensePairngMode.swift */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
 		BFA9C0581A1A7F1900CCCEFB = {
 			isa = PBXGroup;
 			children = (
 				BFA9C0631A1A7F1900CCCEFB /* SenseBLETester */,
 				BFA9C0791A1A7F1900CCCEFB /* SenseBLETesterTests */,
 				BFA9C0621A1A7F1900CCCEFB /* Products */,
+				9FF1832958FFEA1A8B0E4B55 /* Pods */,
+				FA3D11E0D6E6E81D6C4D9A7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		BFA9C0621A1A7F1900CCCEFB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFA9C0611A1A7F1900CCCEFB /* SenseBLETester.app */,
+				BFA9C0611A1A7F1900CCCEFB /* Sense T.app */,
 				BFA9C0761A1A7F1900CCCEFB /* SenseBLETesterTests.xctest */,
 			);
 			name = Products;
@@ -77,8 +126,12 @@
 		BFA9C0631A1A7F1900CCCEFB /* SenseBLETester */ = {
 			isa = PBXGroup;
 			children = (
-				BFA9C0661A1A7F1900CCCEFB /* AppDelegate.swift */,
-				BFA9C0681A1A7F1900CCCEFB /* ViewController.swift */,
+				BF257ED51A1B17DF00DAF923 /* Operations */,
+				BFBC65FB1A1A96350060EEC6 /* Data Source */,
+				BF257EE01A1BBCF800DAF923 /* STSenseTestSuite.swift */,
+				BFA9C0661A1A7F1900CCCEFB /* STAppDelegate.swift */,
+				BF045B621A1E9FC40026D5B9 /* STTestResultsVC.swift */,
+				BFA9C0681A1A7F1900CCCEFB /* STRootVC.swift */,
 				BFA9C06A1A1A7F1900CCCEFB /* Main.storyboard */,
 				BFA9C06D1A1A7F1900CCCEFB /* Images.xcassets */,
 				BFA9C06F1A1A7F1900CCCEFB /* LaunchScreen.xib */,
@@ -90,7 +143,9 @@
 		BFA9C0641A1A7F1900CCCEFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BFA9C0861A1A81A900CCCEFB /* Podfile */,
 				BFA9C0651A1A7F1900CCCEFB /* Info.plist */,
+				BFBC65FA1A1A8A2B0060EEC6 /* SenseBLETester-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -112,6 +167,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BFBC65FB1A1A96350060EEC6 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				BFBC65FC1A1A96780060EEC6 /* STSenseDataSource.swift */,
+				BF045B641A1EA0DE0026D5B9 /* STTestResultDataSource.swift */,
+			);
+			name = "Data Source";
+			sourceTree = "<group>";
+		};
+		FA3D11E0D6E6E81D6C4D9A7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45B2D6ABE0FC7F47976D368F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFA9C0801A1A7F1900CCCEFB /* Build configuration list for PBXNativeTarget "SenseBLETester" */;
 			buildPhases = (
+				CF64CE8E2D1B17477558F5AC /* Check Pods Manifest.lock */,
 				BFA9C05D1A1A7F1900CCCEFB /* Sources */,
 				BFA9C05E1A1A7F1900CCCEFB /* Frameworks */,
 				BFA9C05F1A1A7F1900CCCEFB /* Resources */,
+				124C9906593FC472466566C7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,7 +203,7 @@
 			);
 			name = SenseBLETester;
 			productName = SenseBLETester;
-			productReference = BFA9C0611A1A7F1900CCCEFB /* SenseBLETester.app */;
+			productReference = BFA9C0611A1A7F1900CCCEFB /* Sense T.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BFA9C0751A1A7F1900CCCEFB /* SenseBLETesterTests */ = {
@@ -161,6 +235,7 @@
 				TargetAttributes = {
 					BFA9C0601A1A7F1900CCCEFB = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = MSG86J7GNF;
 					};
 					BFA9C0751A1A7F1900CCCEFB = {
 						CreatedOnToolsVersion = 6.1;
@@ -194,6 +269,7 @@
 			files = (
 				BFA9C06C1A1A7F1900CCCEFB /* Main.storyboard in Resources */,
 				BFA9C0711A1A7F1900CCCEFB /* LaunchScreen.xib in Resources */,
+				BFA9C0871A1A81A900CCCEFB /* Podfile in Resources */,
 				BFA9C06E1A1A7F1900CCCEFB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,13 +283,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		124C9906593FC472466566C7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF64CE8E2D1B17477558F5AC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFA9C05D1A1A7F1900CCCEFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFA9C0691A1A7F1900CCCEFB /* ViewController.swift in Sources */,
-				BFA9C0671A1A7F1900CCCEFB /* AppDelegate.swift in Sources */,
+				BF257EE11A1BBCF800DAF923 /* STSenseTestSuite.swift in Sources */,
+				BF045B611A1E848A0026D5B9 /* STSensePairngMode.swift in Sources */,
+				BF045B631A1E9FC40026D5B9 /* STTestResultsVC.swift in Sources */,
+				BFA9C0691A1A7F1900CCCEFB /* STRootVC.swift in Sources */,
+				BF257ED91A1B1FC600DAF923 /* STSenseTestOperation.swift in Sources */,
+				BF257EDF1A1B256900DAF923 /* STSenseScanWiFi.swift in Sources */,
+				BF045B651A1EA0DE0026D5B9 /* STTestResultDataSource.swift in Sources */,
+				BFA9C0671A1A7F1900CCCEFB /* STAppDelegate.swift in Sources */,
+				BF257EDB1A1B21BA00DAF923 /* STSenseGetWiFi.swift in Sources */,
+				BFBC65FD1A1A96780060EEC6 /* STSenseDataSource.swift in Sources */,
+				BF257EDD1A1B22CD00DAF923 /* STSenseSetWiFi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -326,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,21 +454,34 @@
 		};
 		BFA9C0811A1A7F1900CCCEFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA24CDD7AD159A3104102FA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SenseBLETester/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Sense T";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SenseBLETester/SenseBLETester-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		BFA9C0821A1A7F1900CCCEFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F026B3441F265A1C4EF020F6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SenseBLETester/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Sense T";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SenseBLETester/SenseBLETester-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +538,7 @@
 				BFA9C0821A1A7F1900CCCEFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFA9C0831A1A7F1900CCCEFB /* Build configuration list for PBXNativeTarget "SenseBLETesterTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +547,7 @@
 				BFA9C0851A1A7F1900CCCEFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

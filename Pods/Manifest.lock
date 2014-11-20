@@ -1,0 +1,86 @@
+PODS:
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Amplitude-iOS (2.2.2)
+  - CocoaLumberjack (2.0.0-beta4):
+    - CocoaLumberjack/Default
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (2.0.0-beta4)
+  - CocoaLumberjack/Default (2.0.0-beta4):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0-beta4):
+    - CocoaLumberjack/Default
+  - FXKeychain (1.5.2)
+  - LGBluetooth (1.1.4)
+  - NSJSONSerialization-NSNullRemoval (1.0.1)
+  - SenseKit (0.1.0):
+    - SenseKit/Analytics
+    - SenseKit/API
+    - SenseKit/BLE
+    - SenseKit/Model
+    - SenseKit/Service
+  - SenseKit/Analytics (0.1.0):
+    - Amplitude-iOS
+    - CocoaLumberjack
+  - SenseKit/API (0.1.0):
+    - AFNetworking (~> 2.4.1)
+    - FXKeychain (~> 1.5.1)
+    - NSJSONSerialization-NSNullRemoval (~> 1.0.0)
+  - SenseKit/BLE (0.1.0):
+    - CocoaLumberjack
+    - LGBluetooth (~> 1.1.4)
+    - SHSProtoBuf
+  - SenseKit/Model (0.1.0):
+    - YapDatabase (~> 2.4.3)
+  - SenseKit/Service (0.1.0)
+  - SHSProtoBuf (0.9):
+    - SHSProtoBuf/non-arc
+  - SHSProtoBuf/non-arc (0.9)
+  - YapDatabase (2.4.3):
+    - YapDatabase/standard
+  - YapDatabase/common (2.4.3):
+    - CocoaLumberjack (~> 1.6.3)
+  - YapDatabase/standard (2.4.3):
+    - YapDatabase/common
+
+DEPENDENCIES:
+  - SenseKit (from `git@github.com:hello/SenseKit.git`)
+  - SHSProtoBuf (from `git@github.com:hello/protobuf-objc.git`)
+
+EXTERNAL SOURCES:
+  SenseKit:
+    :git: git@github.com:hello/SenseKit.git
+  SHSProtoBuf:
+    :git: git@github.com:hello/protobuf-objc.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  Amplitude-iOS: cc96a1aca607fc37ff31613d3e8bddcdf670a398
+  CocoaLumberjack: 24153b24b17d853d7182b22b128971fb98e8cb18
+  FXKeychain: c97c352f1923809032339514ec4d6b0ed151bc3b
+  LGBluetooth: 00f37b8c29cccc1dd44d5f726b2ec4a6e91c74ec
+  NSJSONSerialization-NSNullRemoval: b3f02955f898d01205567e3f1292e4aae3ad547e
+  SenseKit: b1eb6058e7ab9ce8d38fd5c3f9b8f400a03cfb91
+  SHSProtoBuf: 62a02d425f5dbee00d057bae65d76f0f01737410
+  YapDatabase: 2ec54726596299c88e09e899e8f17c15d7f6b18a
+
+COCOAPODS: 0.34.4
